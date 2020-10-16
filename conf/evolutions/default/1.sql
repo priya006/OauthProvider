@@ -58,6 +58,9 @@ create index oauth_authorization_code_oauth_client_id_idx on oauth_authorization
 insert into oauth_authorization_code(account_id, oauth_client_id, code, redirect_uri)
   values (1, 2, 'bob_code', 'http://localhost:3000/callback');
 
+insert into oauth_authorization_code(account_id, oauth_client_id, code, redirect_uri)
+values (1, 2, 'pri_code', 'http://localhost:3000/callback');
+
 create sequence oauth_access_token_id_seq;
 create table oauth_access_token
 (
