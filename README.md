@@ -57,3 +57,5 @@ Content-Length: 90
 
 {"account":{"email":"alice@example.com"},"clientId":"alice_client_id2","redirectUri":null}
 ```
+
+![Oauth_provider](https://github.com/priya006/OauthProvider/blob/master/OauthProvider.png)
