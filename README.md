@@ -59,3 +59,7 @@ Content-Length: 90
 ```
 
 ![Oauth_provider](https://github.com/priya006/OauthProvider/blob/master/OauthProvider.png)
+
+# notes
+1. `url = "jdbc:h2:mem:play"` tells that we are usng H2 in memory databse
+2. `/..../conf/evolutions/default/1.sql` is the script with sql table and values
