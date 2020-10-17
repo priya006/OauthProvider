@@ -63,3 +63,6 @@ Content-Length: 90
 # notes
 1. `url = "jdbc:h2:mem:play"` tells that we are usng H2 in memory databse
 2. `/..../conf/evolutions/default/1.sql` is the script with sql table and values
+3. `plugins.sbt` has needed plugins to run the app
+4. `build.sbt` has all the dependencies
+5. `build.properties` has the sbt version
