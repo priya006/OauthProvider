@@ -67,3 +67,4 @@ Content-Length: 90
 4. `build.sbt` has all the dependencies
 5. `build.properties` has the sbt version
 6. `logback.xml` is a configuration file for logging
+7. `Routes` has all rest path
