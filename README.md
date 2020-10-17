@@ -82,6 +82,9 @@ But i was not able to connect to the running database of ours.
 This project is a wrapper build on https://github.com/nulab/play2-oauth2-provider
 
 # Idea
+
+In all the above curl command pay attention to `grant_type`. Our motto is to access /resources and we need `acccess token` to do that. So we can use any `grant_type` and do it.
+
 The idea is say we are going to create an application called Priya and we have this as our oauth provider
 If a application like  whats app likes to talk to priya app. Then Whats app is a client app and it has to register in the Priya app’s Oauth Provider.
 While registering what’s app gives its client_id and client_secret
