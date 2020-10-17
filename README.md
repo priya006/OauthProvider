@@ -68,3 +68,4 @@ Content-Length: 90
 5. `build.properties` has the sbt version
 6. `logback.xml` is a configuration file for logging
 7. `Routes` has all rest path
+8. `views` folder has code needed for web application provided by play framework
