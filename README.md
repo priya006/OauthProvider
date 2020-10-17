@@ -60,7 +60,7 @@ Content-Length: 90
 
 ![Oauth_provider](https://github.com/priya006/OauthProvider/blob/master/OauthProvider.png)
 
-# notes
+# Notes
 1. `url = "jdbc:h2:mem:play"` tells that we are usng H2 in memory databse
 2. `/..../conf/evolutions/default/1.sql` is the script with sql table and values
 3. `plugins.sbt` has needed plugins to run the app
@@ -71,5 +71,20 @@ Content-Length: 90
 8. `views` folder has code needed for web application provided by play framework
 9. 1.sql is a sql script  which runs on default database to create tables and keys
 10. H2 in memory Database name is `default`
+
+
+# Undertsnading
+**Database**
+I was able to connect to H2 database using H2 [http://www.h2database.com/html/download.html]
+But i was not able to connect to the running database of ours.
+
+This project is a wrapper build on https://github.com/nulab/play2-oauth2-provider
+
+# Idea
+The idea is say we are going to create an application called Priya and we have this as our oauth provider
+If a application like  whats app likes to talk to priya app. Then Whats app is a client app and it has to register in the Priya app’s Oauth Provider.
+While registering what’s app gives its client_id and client_secret
+to get acess token
+Actually before this step the client ID and secret exist in Priya oauth provider database. (Companies register the client app manually or they use customer service to do it)
 
 
