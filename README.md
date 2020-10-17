@@ -83,7 +83,7 @@ This project is a wrapper build on https://github.com/nulab/play2-oauth2-provide
 
 # Idea
 
-In all the above curl command pay attention to `grant_type`. Our motto is to access /resources and we need `acccess token` to do that. So we can use any `grant_type` and do it.
+In all the above curl command pay attention to `grant_type`. Our motto is to access /resources and we need `acccess token` to do that. So we can use any `grant_type` and do it. More about [grant types](https://oauth.net/2/grant-types/)
 
 The idea is say we are going to create an application called Priya and we have this as our oauth provider
 If a application like  whats app likes to talk to priya app. Then Whats app is a client app and it has to register in the Priya app’s Oauth Provider.
