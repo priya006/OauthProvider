@@ -69,3 +69,7 @@ Content-Length: 90
 6. `logback.xml` is a configuration file for logging
 7. `Routes` has all rest path
 8. `views` folder has code needed for web application provided by play framework
+9. 1.sql is a sql script  which runs on default database to create tables and keys
+10. H2 in memory Database name is `default`
+
+
