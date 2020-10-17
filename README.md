@@ -66,3 +66,4 @@ Content-Length: 90
 3. `plugins.sbt` has needed plugins to run the app
 4. `build.sbt` has all the dependencies
 5. `build.properties` has the sbt version
+6. `logback.xml` is a configuration file for logging
