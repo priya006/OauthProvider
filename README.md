@@ -74,7 +74,7 @@ Content-Length: 90
 10. H2 in memory Database name is `default`
 
 
-# Undertsnading
+# Undertstanding
 **Database**
 I was able to connect to H2 database using H2 [http://www.h2database.com/html/download.html]
 But i was not able to connect to the running database of ours.
