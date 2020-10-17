@@ -87,4 +87,11 @@ While registering what’s app gives its client_id and client_secret
 to get acess token
 Actually before this step the client ID and secret exist in Priya oauth provider database. (Companies register the client app manually or they use customer service to do it)
 
+# How to open the project?
+1.Install the below plugins in IntelliJ Idea
+![Plugins](https://github.com/priya006/OauthProvider/blob/master/ScalaPlugins.png)
+
+2. Open the project as Scala SBT project in intelliJ Idea
+![SBT](https://github.com/priya006/OauthProvider/blob/master/IntelliJ%20SBT.png)
+
 
