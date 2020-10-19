@@ -1,4 +1,4 @@
-# scala-oauth2-provider example with Skinny-ORM
+# scala-oauth2-provider
 
 - [scala-oauth2-provider](https://github.com/nulab/scala-oauth2-provider) 0.17.x
 - [Play Framework](https://www.playframework.com/) 2.5.x
