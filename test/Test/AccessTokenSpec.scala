@@ -1,6 +1,8 @@
 package Test
 
 import java.util.Date
+
+import models.OauthAccessToken
 import org.scalatest.FlatSpec
 import scalaoauth2.provider.AccessToken
 import org.scalatest.Matchers._
@@ -18,5 +20,10 @@ class AccessTokenSpec  extends FlatSpec{
     token.isExpired shouldBe false
   }
 
+
+  it should "Oauth Access Token is not empty" in {
+    val oauthTable = OauthAccessToken.tableName
+    oauthTable nonEmpty
+  }
 
 }
