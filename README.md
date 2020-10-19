@@ -72,6 +72,10 @@ Content-Length: 90
 8. `views` folder has code needed for web application provided by play framework
 9. 1.sql is a sql script  which runs on default database to create tables and keys
 10. H2 in memory Database name is `default`
+11. `Scala` Language
+12. `SBT` is a Build tool like Maven and Ant
+13. `Play Framework` is used to build Web Application
+14. `scalatest` is a tool used to write scala test
 
 
 # Undertstanding
