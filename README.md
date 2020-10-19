@@ -76,6 +76,7 @@ Content-Length: 90
 12. `SBT` is a Build tool like Maven and Ant
 13. `Play Framework` is used to build Web Application
 14. `scalatest` is a tool used to write scala test
+15. `withEvolutions`  instantiates the database 
 
 
 
