@@ -76,6 +76,7 @@ Content-Length: 90
 12. `SBT` is a Build tool like Maven and Ant
 13. `Play Framework` is used to build Web Application
 14. `scalatest` is a tool used to write scala test
+15. `withEvolutions`  instantiates the database 
 
 
 
@@ -105,7 +106,7 @@ Actually before this step the client ID and secret exist in Priya oauth provider
 
 
 # How to Debug Play SBT Project in intelliJ?
-1. Run the command `sbt run -jvm-debug 9000 -Dplay.evolutions.db.default.autoApply=true` in terminal 
+1. Run the command `sbt run -jvm-debug 9000 -Dplay.evolutions.db.default.autoApply=true` in terminal and wait until you see `java.lang.NumberFormatException: For input string: "0x100"` in console
 2. Set the Break points. Example in the line  `OAuthGrantType.REFRESH_TOKEN -> new RefreshToken()`
 3. Create a Remote Task in Run/Debug configurations ![Run debug](https://github.com/priya006/OauthProvider/blob/master/Run%20Debug%20Configuration.png) and click Debug option in intelliJ
 4. Fire the curl command `curl http://localhost:9000/oauth/access_token -X POST -d "client_id=bob_client_id" -d "client_secret=bob_client_secret" -d "grant_type=client_credentials"`
