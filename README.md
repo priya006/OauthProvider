@@ -72,6 +72,10 @@ Content-Length: 90
 8. `views` folder has code needed for web application provided by play framework
 9. 1.sql is a sql script  which runs on default database to create tables and keys
 10. H2 in memory Database name is `default`
+11. `Scala` Language
+12. `SBT` is a Build tool like Maven and Ant
+13. `Play Framework` is used to build Web Application
+14. `scalatest` is a tool used to write scala test
 
 
 
@@ -99,4 +103,14 @@ Actually before this step the client ID and secret exist in Priya oauth provider
 2. Open the project as Scala SBT project in intelliJ Idea
 ![SBT](https://github.com/priya006/OauthProvider/blob/master/IntelliJ%20SBT.png)
 
+
+# How to Debug Play SBT Project in intelliJ?
+1. Run the command `sbt run -jvm-debug 9000 -Dplay.evolutions.db.default.autoApply=true` in terminal 
+2. Set the Break points. Example in the line  `OAuthGrantType.REFRESH_TOKEN -> new RefreshToken()`
+3. Create a Remote Task in Run/Debug configurations ![Run debug](https://github.com/priya006/OauthProvider/blob/master/Run%20Debug%20Configuration.png) and click Debug option in intelliJ
+4. Fire the curl command `curl http://localhost:9000/oauth/access_token -X POST -d "client_id=bob_client_id" -d "client_secret=bob_client_secret" -d "grant_type=client_credentials"`
+5. Yay! Now You are in debug mode! ![Debug](https://github.com/priya006/OauthProvider/blob/master/Debug_Mode.png)
+
+# How to run the test?
+1. Run the command `sbt test` It runs the test suite using the ScalaTest as a dependency in the build.sbt file.
 
