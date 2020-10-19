@@ -21,6 +21,8 @@ case class OauthAccessToken(
 
 object OauthAccessToken extends SkinnyCRUDMapper[OauthAccessToken] {
 
+
+
   override val tableName = "oauth_access_token"
   override def defaultAlias = createAlias("oat")
 
