@@ -60,6 +60,8 @@ Content-Length: 90
 # Webapp using play framework
 ![Oauth_provider](https://github.com/priya006/OauthProvider/blob/master/OauthProvider.png)
 
+# ERD Diagram
+![ERD](https://github.com/priya006/OauthProvider/blob/master/Oauth_ERD_Diagram.gif)
 
 # Notes
 1. `url = "jdbc:h2:mem:play"` tells that we are usng H2 in memory databse
